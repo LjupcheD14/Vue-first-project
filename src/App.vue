@@ -36,17 +36,17 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Info</a>
                   </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Info
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">About + Contact</a></li>
-                                <li><a class="dropdown-item" href="#">Submit</a></li>
-                                <li><hr class="dropdown-divider">NEWSLETTERS</li>
-                                <li><a class="dropdown-item" href="#">Inspiration only</a></li>
-                              </ul>
-                            </li>
+<!--                            <li class="nav-item dropdown">-->
+<!--                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                                Info-->
+<!--                              </a>-->
+<!--                              <ul class="dropdown-menu">-->
+<!--                                <li><a class="dropdown-item" href="#">About + Contact</a></li>-->
+<!--                                <li><a class="dropdown-item" href="#">Submit</a></li>-->
+<!--                                <li><hr class="dropdown-divider">NEWSLETTERS</li>-->
+<!--                                <li><a class="dropdown-item" href="#">Inspiration only</a></li>-->
+<!--                              </ul>-->
+<!--                            </li>-->
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -82,134 +82,127 @@
               <figcaption id="features" class="blockquote-footer">
                 Features
               </figcaption>
-              <button class="kopce-malo">Accordion</button>
-              <button class="kopce-malo">Big Typography</button>
-              <button class="kopce-malo">Client Logos</button>
-              <button class="kopce-malo">Fixed Header</button>
-              <button class="kopce-malo">Full-width Layout</button>
+              <ul class="grupa-lista">
+                <li><button class="kopce-malo">Accordion</button></li>
+                <li><button class="kopce-malo">Big Typography</button></li>
+                <li><button class="kopce-malo">Client Logos</button></li>
+                <li><button class="kopce-malo">Fixed Header</button></li>
+                <li><button class="kopce-malo">Full-width Layout</button></li>
+              </ul>
+
             </div>
             <div class="grupa-kopcinja second">
-              <button class="kopce-malo">Long Scrolling</button>
-              <button class="kopce-malo">Off-Canvas Content Area</button>
-              <button class="kopce-malo">Product Designer</button>
-              <button class="kopce-malo">Slider</button>
-              <button class="kopce-malo">Testimonials</button>
+              <ul class="grupa-lista">
+                <li><button class="kopce-malo">Long Scrolling</button></li>
+                <li><button class="kopce-malo">Off-Canvas Content Area</button></li>
+                <li><button class="kopce-malo">Product Designer</button></li>
+                <li><button class="kopce-malo">Slider</button></li>
+                <li><button class="kopce-malo">Testimonials</button></li>
+              </ul>
             </div>
 
-<!--            <div class="btn-group btn-group-sm" id="kopcinja" role="group" aria-label="Small button group">-->
-<!--              <button type="button" class="btn btn-outline-dark kopce_malo">Left</button>-->
-<!--              <button type="button" class="btn btn-outline-dark kopce_malo">Middle</button>-->
-<!--              <button type="button" class="btn btn-outline-dark kopce_malo">Right</button>-->
-<!--            </div>-->
+            <div class="grupa-a">
+              <figcaption id="features" class="blockquote-footer">
+                Category
+              </figcaption>
+              <ul class="grupa-lista">
+                <li><a class="a-text">Portfolio</a></li>
+              </ul>
+            </div>
+
+            <div class="grupa-a">
+              <figcaption id="features" class="blockquote-footer">
+                Typeface
+              </figcaption>
+              <ul class="grupa-lista">
+                <li><a class="a-text">Circular</a></li>
+              </ul>
+            </div>
+
+            <div class="grupa-a">
+              <figcaption id="features" class="blockquote-footer">
+                Platform
+              </figcaption>
+              <ul class="grupa-lista">
+                <li><a class="a-text">Webflow</a></li>
+              </ul>
+
+            </div>
           </div>
         </div>
+
+        <img class="slika" src="./images/slika.jpg">
+
       </div>
+        <div class="cards">
+          <h3 id="h3-cards-title">SIMILAR ONE PAGE WEBSITES</h3>
+          <p id="p-cards-title">Submit</p>
+          <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/slika1.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Build unique Landing Page designs with Squarespace’s Fluid Engine editor</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Promoted Tutorial</h6>
+          </div>
+
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/silka2.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Jordan Singer</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Landing Page Portfolio</h6>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="./images/slika3.jpg" class="card-img-top" alt="...">
+            <h5 class="card-title">Robbert Lokhorst</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Personal Portfolio</h6>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika4.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">Ziko Studio</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Portfolio Service</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika5.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">r2studio.</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Portfolio</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika6.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">My Design Buddy</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Landing Page Portfolio Service</h6>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika7.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">Tanya Duo</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Portfolio</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika8.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">Quentin Hocde</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Personal Portfolio</h6>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./images/slika9.jpg" class="card-img-top" alt="...">
+          <h5 class="card-title">Nathan Riley</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Personal Portfolio</h6>
+          </div>
+          </div>
+        </div>
+
     </body>
   </html>
 
 </template>
 
-<!--<script>-->
-<!--$(function(){-->
-<!--  $('.mydropdownjQuery').hover(function() {-->
-<!--        $(this).addClass('open');-->
-<!--      },-->
-<!--      function() {-->
-<!--        $(this).removeClass('open');-->
-<!--      });-->
-<!--});-->
-<!--</script>-->
 
-
-<style lang="scss">
-
-  body{
-    background-color: #a4a4a4 !important;
-  }
-  ul li{
-    color: white;
-  }
-  .navbar-expand-lg .navbar-nav{
-    margin: auto;
-  }
-  .back-top{
-    width: 100%;
-    height: 150px;
-    background-color: #282828;
-    z-index: -1;
-  }
-  .nav-link{
-    color: #7d7d7d !important;
-  }
-  .nav-link:hover{
-    color: white !important;
-  }
-  .container{
-    height: auto;
-    background-color: white;
-    margin-top: -75px;
-  }
-  .main-content{
-    padding: 50px;
-  }
-  .main-content2{
-    display: flex;
-    flex-direction: row;
-    //justify-content: space-between;
-  }
-  #kopce{
-    margin-top: 70px;
-    width: 100px;
-    height: 30px;
-    background-color: #ff3b5c;
-    border-radius: 50px !important;
-  }
-  #full_name{
-    margin-top: 5%;
-    margin-bottom: 2.2%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  #subname{
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  #text{
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  .content-list{
-    padding-top: 10%;
-  }
-  .grupa-kopcinja{
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .kopce-malo{
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ff3b5c;
-    border-radius: 20px;
-    font-size: 8px;
-    white-space: nowrap;
-    margin: 2px;
-  }
-  #features{
-    margin-bottom: 5%;
-    margin-right: 20%;
-    text-transform: uppercase;
-  }
-  .second{
-    margin-left: 36.5%;
-    margin-top: -8%;
-  }
-
-
-</style>
